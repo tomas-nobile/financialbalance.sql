@@ -1,0 +1,10 @@
+{
+    "serverPort":4000,
+    "db":{
+        "host":"localhost",
+        "dialect":"postgres",
+        "database":"postgres",
+        "username":"postgres",
+        "password":"12345"
+    }
+}

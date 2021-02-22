@@ -1,0 +1,23 @@
+type Item{
+    id: UUID!
+    userId: UUID!
+    item: String!
+    balance: String!
+    createdAt:Datetime
+    updatedAt:Datetime
+}
+
+input CreateItemInput{
+    userId: UUID!,
+    item: String!,
+    balance: String!
+}
+
+type Query{
+    getItem:[Item!]
+}
+
+type Mutation {
+    createItem(input:CreateItemInput):Item!
+}
+

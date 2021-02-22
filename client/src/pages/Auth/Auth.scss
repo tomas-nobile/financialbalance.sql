@@ -1,0 +1,29 @@
+@import '../../scss/index.scss';
+
+.auth{
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center ;
+    height: 100vh;
+    background-color: $bg-blue;
+
+    img{
+        width: 300px;
+    }
+
+    .container-form{
+        height:400px;
+
+        .change-form{
+            font-weight: bold;
+            color: $font-light;
+            cursor: pointer;
+            text-align: center;
+            margin-top:1rem
+        }
+    }
+}
+
+
+
